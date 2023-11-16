@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <ItemDefinitionGroup>
-        <CLCompile>
-            <PreprocessorDefinitions>%(PreprocessorDefinitions);RSDK_AUTOBUILD</PreprocessorDefinitions>
         </CLCompile>
         <Link>
             <AdditionalLibraryDirectories>C:/vcpkg/installed/x64-windows-static/lib/;$(SolutionDir)dependencies/windows/SDL2/lib/$(PlatformTargetAsMSBuildArchitecture)/;$(SolutionDir)dependencies/windows/glew/lib/Release/$(Platform)/</AdditionalLibraryDirectories>
